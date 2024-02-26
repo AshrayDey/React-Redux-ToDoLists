@@ -1,0 +1,43 @@
+//Color Constants
+$primary: rgb(5, 128, 243);
+.formContainer {
+
+  .todoInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(100, 99, 99);
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      font-weight: bold;
+      input {
+        padding: 10px;
+        width: 300px;
+      }
+      input:focus {
+        outline: 2px solid $primary;
+      }
+    }
+
+    button {
+      background-color: $primary;
+      border: none;
+      border-radius: 0px;
+      padding: 10px;
+      margin-top: 21px;
+      color: white;
+      font-weight: 800;
+      cursor: pointer;
+    }
+    button:hover{
+      background-color:  rgb(5, 79, 148);
+    }
+  }
+
+ 
+}

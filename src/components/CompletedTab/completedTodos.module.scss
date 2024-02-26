@@ -1,0 +1,38 @@
+$primary: rgb(5, 128, 243);
+.container{
+    
+    h1{
+        color:$primary ;
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(8, 8, 8);
+        padding: 5px 15px;
+        border-radius: 4px;
+        .task{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            h3{
+                color: $primary;
+                margin: 0px;
+            }
+            h4{
+                color: rgb(70, 69, 69);
+                margin:0px;
+                margin-top: 10px;
+            }
+        }
+        .option{
+            .delete {
+                background-color: rgb(46, 45, 45);
+                color: rgba(255, 0, 0, 0.637);
+                height: 30px;
+                width: 30px; 
+                align-self: center;  
+              }
+        }
+    }
+   
+}

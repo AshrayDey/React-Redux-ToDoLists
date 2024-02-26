@@ -1,0 +1,44 @@
+$primary: rgb(5, 128, 243);
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(19, 18, 18);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  h2 {
+    color: $primary;
+    margin: 5px;
+    padding-top: 8px;
+    padding-left: 10px;
+  }
+  p {
+    margin: 5px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    color: rgb(185, 178, 178);
+    font-weight: 600;
+  }
+  .options {
+    margin: 5px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    cursor: pointer;
+    .delete {
+      background-color: rgb(46, 45, 45);
+      color: rgba(255, 0, 0, 0.637);
+      height: 30px;
+      width: 30px;
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+    .completed {
+      background-color: rgb(46, 45, 45);
+      color: rgba(21, 255, 0, 0.664);
+      height: 30px;
+      width: 30px;
+      border-top-right-radius:4px ;
+      border-bottom-right-radius:4px ;
+    }
+  }
+}
