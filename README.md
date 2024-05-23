@@ -4,3 +4,5 @@ Once a ToDo is created ,you will have 2 option to deal with it i.e. delete it or
 
 If the you choose to delete it then the Todo will disappear from the list and if you mark it completed 
 then it will send your Todo from ToDo tab to Completed Tab where you will have to delete one of your completed tasks
+
+Deployment - https://master--todolistredux123.netlify.app/
